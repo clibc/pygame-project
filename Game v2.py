@@ -135,13 +135,3 @@ while 1:
             rungame()
         if event.type == pygame.KEYDOWN and event.key==pygame.K_e:
             sys.exit()
-
-
-
-
-
-
-
-
-
-
