@@ -26,7 +26,7 @@ start=start.convert()
 startrect=start.get_rect()
 
 font=pygame.font.Font(None,36)
-game = font.render("Press 'R' to Start , 'E' to Exit - Game by Shirvani Abdullayev",1,(255,255,255))
+game = font.render("Press 'R' to Start , 'E' to Exit ",1,(255,255,255))
 gamerect=game.get_rect(left=20,top=100)
 screen.blit(start,startrect)
 screen.blit(game, gamerect)
