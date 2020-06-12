@@ -123,7 +123,7 @@ def rungame():
 
 	####################################################################
 	font=pygame.font.Font(None,36)
-	game = font.render(" Game Over :) - Press 'R' to Start , 'E' to Exit - Game by Shirvani Abdullayev",1,(255,255,255))
+	game = font.render(" Game Over :) - Press 'R' to Start , 'E' to Exit",1,(255,255,255))
 	gamerect=game.get_rect(left=20,top=100)
 	screen.blit(end,endrect)
 	screen.blit(game, gamerect)
