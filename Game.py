@@ -110,14 +110,3 @@ while 1:
    for event in pygame.event.get():
         if event.type == pygame.KEYDOWN:
             sys.exit()
-
-
-
-
-
-
-
-
-
-
-
