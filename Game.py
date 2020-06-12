@@ -101,7 +101,7 @@ while 1:
 
 ####################################################################
 font=pygame.font.Font(None,36)
-game = font.render("Game over :) - Tab to exit -  Developed by Shirvani Abdullayev",1,(255,255,255))
+game = font.render("Game over :) - Tab to exit",1,(255,255,255))
 gamerect=game.get_rect(left=20,top=100)
 screen.blit(end,endrect)
 screen.blit(game, gamerect)
